@@ -30,7 +30,7 @@ let showwinner=(userwin,userchoice,compchoice)=>{
     else{
         compscore++;
         comppara.innerText=compscore;
-        console.log("You Losse");
+        console.log("You Lose");
         msg.innerText=`You Lose computer ${compchoice} beats your ${userchoice}`;
         msgbox.style.backgroundColor="red"; 
     }
